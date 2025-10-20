@@ -5,6 +5,7 @@ import keyboard
 import threading
 from pynput import mouse
 from pynput.mouse import Listener as MouseListener
+import random
 
 class CodeTyper:
     def __init__(self, file_path):
@@ -116,6 +117,10 @@ class CodeTyper:
                 if char == '\n':
                     time.sleep(line_delay)
                 
+                    n = random.randint(0,1)
+                    if n == 0:
+                        time.sleep(15)
+                
                 # Mostrar progreso
                 if i % 50 == 0:
                     total_length = start_position + total_chars
@@ -148,7 +153,7 @@ def main():
     try:
         # Configurar delays (puedes ajustar estos valores)
         char_delay = 0.5  # Delay entre caracteres en segundos
-        line_delay = 0.5   # Delay adicional después de saltos de línea
+        line_delay = 5   # Delay adicional después de saltos de línea
         
         typer.type_code(char_delay, line_delay)
         
