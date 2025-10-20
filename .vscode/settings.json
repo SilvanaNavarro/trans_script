@@ -1,0 +1,30 @@
+{
+    "python.autoComplete.extraPaths": [],
+    "python.analysis.extraPaths": [],
+    "python.autoComplete.typeshedPaths": [],
+    "python.analysis.typeshedPaths": [],
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.completeFunctionParens": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "off",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.autoSurround": "never",
+    "editor.wordBasedSuggestions": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.autoIndent": "none",
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "python.analysis.autoFormatStrings": false,
+    "editor.linkedEditing": false,
+    "editor.autoClosingDelete": "never",
+    "editor.autoClosingOvertype": "never"
+}
